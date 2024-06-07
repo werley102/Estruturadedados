@@ -14,13 +14,13 @@ typedef struct Musica {
 
 Musica* cabecaPlaylist = NULL;
 
-// Função para criar um novo nó de música
+
 Musica* criarMusica(const char* artista, const char* titulo) {
-  Musica* novaMusica = (Musica*)malloc(sizeof(Musica)); // Aloca memória para uma nova música
-  strncpy(novaMusica->artista, artista, char1);    // Copia o nome do artista para a nova música
-  strncpy(novaMusica->titulo, titulo, char1);      // Copia o título da música para a nova música
-  novaMusica->prox = novaMusica->ant = NULL;  // Inicialmente, a música aponta para si mesma em uma lista circular
-  return novaMusica; // Retorna o ponteiro para a nova música
+  Musica* novaMusica = (Musica*)malloc(sizeof(Musica)); 
+  strncpy(novaMusica->artista, artista, char1);    
+  strncpy(novaMusica->titulo, titulo, char1);      
+  novaMusica->prox = novaMusica->ant = NULL;  
+  return novaMusica; 
 }
 
 // Função para adicionar uma nova música ao final da playlist
