@@ -33,7 +33,7 @@ void adicionarMusica(const char* artista, const char* titulo) {
     return;
   }
 
-  // Encontre a última música (cauda)
+  
   Musica* atual = cabecaPlaylist;
   while (atual->prox != cabecaPlaylist) {
     atual = atual->prox;
