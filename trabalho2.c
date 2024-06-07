@@ -150,9 +150,9 @@ void menu() {
         fgets(artista, char1, stdin); 
         strtok(artista, "\n"); 
         printf("Digite o título da música: ");
-        fgets(titulo, char1, stdin); // Lê o título da música do usuário
-        strtok(titulo, "\n"); // Remove o caractere de nova linha
-        adicionarMusica(artista, titulo); // Adiciona a nova música à playlist
+        fgets(titulo, char1, stdin); 
+        strtok(titulo, "\n"); 
+        adicionarMusica(artista, titulo);  
         break;
       case 3:
         printf("Digite o título da música a ser removida: ");
@@ -162,8 +162,8 @@ void menu() {
         break;
       case 4:
         printf("Digite o título da música a ser buscada: ");
-        fgets(titulo, char1, stdin); // Lê o título da música a ser buscada
-        strtok(titulo, "\n"); // Remove o caractere de nova linha
+        fgets(titulo, char1, stdin); // 
+        strtok(titulo, "\n"); // 
         Musica* encontrada = encontrarMusica(titulo); // Busca a música na playlist
         if (encontrada != NULL) {
           printf("Música encontrada: Artista: %s, Título: %s\n", encontrada->artista, encontrada->titulo); // Exibe a música encontrada
