@@ -68,19 +68,19 @@ void removerMusica(const char* titulo) {
 
   Musica* atual = cabecaPlaylist;
   do {
-    if (strcmp(atual->titulo, titulo) == 0) { // Encontra a música com o título correspondente
-      // Remove a música da playlist
-      if (atual->prox == atual) {  // Única música na playlist
+    if (strcmp(atual->titulo, titulo) == 0) { 
+      
+      if (atual->prox == atual) {  
         cabecaPlaylist = NULL;
       } else {
-        atual->ant->prox = atual->prox; // Atualiza o ponteiro "prox" da música anterior
-        atual->prox->ant = atual->ant; // Atualiza o ponteiro "ant" da próxima música
+        atual->ant->prox = atual->prox; 
+        atual->prox->ant = atual->ant; 
         if (atual == cabecaPlaylist) {
-          cabecaPlaylist = atual->prox; // Atualiza a cabeça da lista se a música removida for a primeira
+          cabecaPlaylist = atual->prox; 
         }
       }
-      free(atual); // Libera a memória da música removida
-      return;  // Saia após remover a primeira música correspondente
+      free(atual); 
+      return;  
     }
     atual = atual->prox; // Avança para a próxima música
   } while (atual != cabecaPlaylist);
