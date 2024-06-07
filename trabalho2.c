@@ -118,7 +118,7 @@ void carregarMusicasDoArquivo(const char* nomeArquivo) {
     adicionarMusica(artista, titulo);  
   }
 
-  fclose(arquivo); // Fecha o arquivo
+  fclose(arquivo);  
 }
 
 // Função para exibir o menu e realizar operações na playlist
