@@ -147,7 +147,7 @@ void menu() {
         break;
       case 2:
         printf("Digite o nome do artista: ");
-        fgets(artista, char1, stdin); // Lê o nome do artista do usuário
+        fgets(artista, char1, stdin); 
         strtok(artista, "\n"); // Remove o caractere de nova linha
         printf("Digite o título da música: ");
         fgets(titulo, char1, stdin); // Lê o título da música do usuário
