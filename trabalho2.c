@@ -46,7 +46,7 @@ void adicionarMusica(const char* artista, const char* titulo) {
   cabecaPlaylist->ant = novaMusica;
 }
 
-// Função para imprimir todas as músicas na ordem da playlist
+
 void imprimirPlaylist() {
   if (cabecaPlaylist == NULL) {
     printf("Playlist está vazia.\n");
