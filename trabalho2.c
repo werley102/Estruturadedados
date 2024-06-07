@@ -60,7 +60,7 @@ void imprimirPlaylist() {
   } while (atual != cabecaPlaylist); 
 }
 
-// Função para remover uma música pelo título
+
 void removerMusica(const char* titulo) {
   if (cabecaPlaylist == NULL) {
     return;
