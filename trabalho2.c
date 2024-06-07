@@ -114,8 +114,8 @@ void carregarMusicasDoArquivo(const char* nomeArquivo) {
   }
 
   char artista[char1], titulo[char1];
-  while (fscanf(arquivo, "%[^;];%[^\n]\n", artista, titulo) == 2) { // Lê artista e título do arquivo
-    adicionarMusica(artista, titulo); // Adiciona cada música lida à playlist
+  while (fscanf(arquivo, "%[^;];%[^\n]\n", artista, titulo) == 2) {  
+    adicionarMusica(artista, titulo);  
   }
 
   fclose(arquivo); // Fecha o arquivo
