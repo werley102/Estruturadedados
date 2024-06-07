@@ -121,7 +121,7 @@ void carregarMusicasDoArquivo(const char* nomeArquivo) {
   fclose(arquivo);  
 }
 
-// Função para exibir o menu e realizar operações na playlist
+ 
 void menu() {
   int escolha;
   char artista[char1], titulo[char1];
