@@ -166,9 +166,9 @@ void menu() {
         strtok(titulo, "\n");  
         Musica* encontrada = encontrarMusica(titulo);  
         if (encontrada != NULL) {
-          printf("Música encontrada: Artista: %s, Título: %s\n", encontrada->artista, encontrada->titulo); // Exibe a música encontrada
+          printf("Música encontrada: Artista: %s, Título: %s\n", encontrada->artista, encontrada->titulo); 
         } else {
-          printf("Música não encontrada.\n"); // Informa se a música não foi encontrada
+          printf("Música não encontrada.\n"); 
         }
         break;
       case 5:
