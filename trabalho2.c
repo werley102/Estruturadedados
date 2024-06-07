@@ -7,11 +7,11 @@
 typedef struct Musica {
   char artista[char1];
   char titulo[char1];
-  struct Musica* prox;  // 
-  struct Musica* ant;   // 
+  struct Musica* prox;  
+  struct Musica* ant;    
 } Musica;
 
-// Cabeça (primeira música) da playlist, inicialmente NULL
+
 Musica* cabecaPlaylist = NULL;
 
 // Função para criar um novo nó de música
