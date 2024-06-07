@@ -85,7 +85,7 @@ void removerMusica(const char* titulo) {
     atual = atual->prox; 
   } while (atual != cabecaPlaylist);
 
-  printf("Música '%s' não encontrada na playlist.\n", titulo); // Informa se a música não foi encontrada
+  printf("Música '%s' não encontrada na playlist.\n", titulo); 
 }
 
 // Função para encontrar uma música pelo título (retorna o ponteiro da música ou NULL)
