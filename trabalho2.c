@@ -128,7 +128,7 @@ void menu() {
   Musica* atual = cabecaPlaylist;
 
   do {
-    // Exibe as opções do menu
+     
     printf("\nMenu:\n");
     printf("1. Exibir playlist na ordem de cadastro\n");
     printf("2. Inserir nova música\n");
