@@ -39,7 +39,7 @@ void adicionarMusica(const char* artista, const char* titulo) {
     atual = atual->prox;
   }
 
-  // Vincule a nova música à última música e atualize a cauda da playlist
+  
   atual->prox = novaMusica;
   novaMusica->ant = atual;
   novaMusica->prox = cabecaPlaylist;
