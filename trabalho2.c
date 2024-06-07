@@ -23,7 +23,7 @@ Musica* criarMusica(const char* artista, const char* titulo) {
   return novaMusica; 
 }
 
-// Função para adicionar uma nova música ao final da playlist
+//  
 void adicionarMusica(const char* artista, const char* titulo) {
   Musica* novaMusica = criarMusica(artista, titulo); // Cria uma nova música
 
