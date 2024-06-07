@@ -197,7 +197,7 @@ void menu() {
 }
 
 int main() {
-  carregarMusicasDoArquivo("musicas.txt"); // Carrega as músicas do arquivo
+  carregarMusicasDoArquivo("musicas.txt"); 
   menu(); // Chama a função para exibir o menu
   return 0;
 }
