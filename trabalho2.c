@@ -88,7 +88,7 @@ void removerMusica(const char* titulo) {
   printf("Música '%s' não encontrada na playlist.\n", titulo); 
 }
 
-// Função para encontrar uma música pelo título (retorna o ponteiro da música ou NULL)
+
 Musica* encontrarMusica(const char* titulo) {
   if (cabecaPlaylist == NULL) {
     return NULL;
