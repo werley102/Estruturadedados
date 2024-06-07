@@ -96,10 +96,10 @@ Musica* encontrarMusica(const char* titulo) {
 
   Musica* atual = cabecaPlaylist;
   do {
-    if (strcmp(atual->titulo, titulo) == 0) { // Encontra a música com o título correspondente
-      return atual; // Retorna o ponteiro para a música encontrada
+    if (strcmp(atual->titulo, titulo) == 0) {  
+      return atual;  
     }
-    atual = atual->prox; // Avança para a próxima música
+    atual = atual->prox; 
   } while (atual != cabecaPlaylist);
 
   return NULL; // Retorna NULL se a música não for encontrada
