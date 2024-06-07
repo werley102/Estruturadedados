@@ -193,7 +193,7 @@ void menu() {
       default:
         printf("Opção inválida.\n"); 
     }
-  } while (escolha != 0); // Continua até que o usuário escolha sair
+  } while (escolha != 0); 
 }
 
 int main() {
