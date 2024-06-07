@@ -156,9 +156,9 @@ void menu() {
         break;
       case 3:
         printf("Digite o título da música a ser removida: ");
-        fgets(titulo, char1, stdin); // Lê o título da música a ser removida
-        strtok(titulo, "\n"); // Remove o caractere de nova linha
-        removerMusica(titulo); // Remove a música da playlist
+        fgets(titulo, char1, stdin);  
+        strtok(titulo, "\n"); 
+        removerMusica(titulo);  
         break;
       case 4:
         printf("Digite o título da música a ser buscada: ");
