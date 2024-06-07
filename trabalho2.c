@@ -191,7 +191,7 @@ void menu() {
         printf("Saindo...\n");  
         break;
       default:
-        printf("Opção inválida.\n"); // Informa se a opção é inválida
+        printf("Opção inválida.\n"); 
     }
   } while (escolha != 0); // Continua até que o usuário escolha sair
 }
