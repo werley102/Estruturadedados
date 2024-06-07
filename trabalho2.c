@@ -102,7 +102,7 @@ Musica* encontrarMusica(const char* titulo) {
     atual = atual->prox; 
   } while (atual != cabecaPlaylist);
 
-  return NULL; // Retorna NULL se a música não for encontrada
+  return NULL;
 }
 
 // Função para carregar músicas de um arquivo (substitua "musicas.txt" pelo nome do seu arquivo)
