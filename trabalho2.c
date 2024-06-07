@@ -82,7 +82,7 @@ void removerMusica(const char* titulo) {
       free(atual); 
       return;  
     }
-    atual = atual->prox; // Avança para a próxima música
+    atual = atual->prox; 
   } while (atual != cabecaPlaylist);
 
   printf("Música '%s' não encontrada na playlist.\n", titulo); // Informa se a música não foi encontrada
