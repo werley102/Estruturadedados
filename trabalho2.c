@@ -55,9 +55,9 @@ void imprimirPlaylist() {
 
   Musica* atual = cabecaPlaylist;
   do {
-    printf("Artista: %s, Título: %s\n", atual->artista, atual->titulo); // Imprime o artista e título da música atual
-    atual = atual->prox; // Avança para a próxima música
-  } while (atual != cabecaPlaylist); // Continua até voltar à cabeça da lista (indicando uma lista circular)
+    printf("Artista: %s, Título: %s\n", atual->artista, atual->titulo); 
+    atual = atual->prox; 
+  } while (atual != cabecaPlaylist); 
 }
 
 // Função para remover uma música pelo título
