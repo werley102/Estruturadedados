@@ -198,6 +198,6 @@ void menu() {
 
 int main() {
   carregarMusicasDoArquivo("musicas.txt"); 
-  menu(); // Chama a função para exibir o menu
+  menu(); 
   return 0;
 }
