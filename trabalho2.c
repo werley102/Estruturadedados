@@ -105,9 +105,9 @@ Musica* encontrarMusica(const char* titulo) {
   return NULL;
 }
 
-// Função para carregar músicas de um arquivo (substitua "musicas.txt" pelo nome do seu arquivo)
+ 
 void carregarMusicasDoArquivo(const char* nomeArquivo) {
-  FILE* arquivo = fopen(nomeArquivo, "r"); // Abre o arquivo para leitura
+  FILE* arquivo = fopen(nomeArquivo, "r");  
   if (arquivo == NULL) {
     printf("Erro ao abrir o arquivo.\n");
     return;
