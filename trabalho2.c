@@ -23,14 +23,13 @@ Musica* criarMusica(const char* artista, const char* titulo) {
   return novaMusica; 
 }
 
-//  
+ 
 void adicionarMusica(const char* artista, const char* titulo) {
-  Musica* novaMusica = criarMusica(artista, titulo); // Cria uma nova música
+  Musica* novaMusica = criarMusica(artista, titulo); 
 
-  // Se a playlist estiver vazia, defina a nova música como cabeça e cauda
   if (cabecaPlaylist == NULL) {
     cabecaPlaylist = novaMusica;
-    cabecaPlaylist->prox = cabecaPlaylist->ant = cabecaPlaylist; // Lista circular: a música aponta para si mesma
+    cabecaPlaylist->prox = cabecaPlaylist->ant = cabecaPlaylist; 
     return;
   }
 
