@@ -143,7 +143,7 @@ void menu() {
 
     switch (escolha) {
       case 1:
-        imprimirPlaylist(); // Chama a função para imprimir a playlist
+        imprimirPlaylist(); 
         break;
       case 2:
         printf("Digite o nome do artista: ");
