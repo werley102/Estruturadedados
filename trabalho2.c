@@ -181,14 +181,14 @@ void menu() {
         break;
       case 6:
         if (atual != NULL) {
-          atual = atual->ant; //
-          printf("Música atual: Artista: %s, Título: %s\n", atual->artista, atual->titulo); // 
+          atual = atual->ant; 
+          printf("Música atual: Artista: %s, Título: %s\n", atual->artista, atual->titulo);  
         } else {
           printf("Playlist está vazia.\n");
         }
         break;
       case 0:
-        printf("Saindo...\n"); // Sai do programa
+        printf("Saindo...\n");  
         break;
       default:
         printf("Opção inválida.\n"); // Informa se a opção é inválida
