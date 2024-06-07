@@ -139,7 +139,7 @@ void menu() {
     printf("0. Sair\n");
     printf("Escolha uma opção: ");
     scanf("%d", &escolha);
-    getchar(); // Limpar o caractere de nova linha
+    getchar(); 
 
     switch (escolha) {
       case 1:
