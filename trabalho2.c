@@ -8,7 +8,7 @@ typedef struct Musica {
   char artista[char1];
   char titulo[char1];
   struct Musica* prox;  // 
-  struct Musica* ant;   // Ponteiro para a música anterior na playlist (para a lista duplamente encadeada)
+  struct Musica* ant;   // 
 } Musica;
 
 // Cabeça (primeira música) da playlist, inicialmente NULL
