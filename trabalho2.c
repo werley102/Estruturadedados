@@ -181,8 +181,8 @@ void menu() {
         break;
       case 6:
         if (atual != NULL) {
-          atual = atual->ant; // Volta para a música anterior
-          printf("Música atual: Artista: %s, Título: %s\n", atual->artista, atual->titulo); // Exibe a música atual
+          atual = atual->ant; //
+          printf("Música atual: Artista: %s, Título: %s\n", atual->artista, atual->titulo); // 
         } else {
           printf("Playlist está vazia.\n");
         }
